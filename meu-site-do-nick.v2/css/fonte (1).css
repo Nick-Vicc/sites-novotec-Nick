@@ -1,0 +1,365 @@
+.topo{
+    background-color: #334574;
+    font-size: 16px;
+    padding: 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    color: #ffffff;
+}
+#menu{
+    width: auto;
+    margin: auto;
+    background-color: rgb(250, 250, 250);
+    padding-left: 80px;
+    border-bottom: solid 1px black;
+}
+.item-do-menu{
+    display: inline-block;
+    padding: 16px;
+    margin: 4px;
+    margin-right: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: auto;
+    background-color: whitesmoke;
+}
+.itens-do-menu-active{
+    padding: 16px;
+    margin: 0px;
+    margin-right: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgb(241, 241, 241, 1);
+    font-weight: bold;
+}
+
+.foto{
+    float: left;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-right: 32px;
+}
+.texto{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    margin-top: 48px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-flex;
+   
+}
+/*inicio*/
+.texto1{
+  font-size: 36px;
+  font-family:'Poppins', sans-serif;
+  padding-top: 40px;
+  line-height: 30px;
+  color: #334574;
+  margin-left: 105px;
+  letter-spacing: 4px;
+}
+
+.principal-parte-2{
+  background-color: rgb(0, 0, 0);
+  padding-top:10px ;
+  height: 250px;
+  text-align: center;
+  font-family:  'Montserrat', sans-serif;
+ color: #F1F1F1;
+ background-image: url(../img/espaco2.png);
+  
+}
+.principal{
+  background-color: #050505;
+  margin: 0;
+  height: 272px;
+  display:inline-flex;
+  width: 100%;
+}
+
+
+.img-top{
+  width: 651px;
+  height: 100px;
+  margin-left: 190px;
+}
+
+.quem-sou{
+  padding-top:18px;
+  padding-bottom: 18px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 30px;
+  margin-left: 120px;
+  cursor: pointer;
+  color: #050505;
+}
+.conteudo{
+  background-color: white;
+padding-top:10px ;
+height: 250px;
+text-align: center;
+font-family:  'Montserrat', sans-serif;
+
+}
+.meus-trabalhos{
+  padding-top:18px;
+  padding-bottom: 18px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 30px;
+  margin-left: 20px;
+  background-color: #050505;
+  color:aliceblue;
+  cursor: pointer;
+}
+.saiba-mais{
+  padding-top:18px;
+  padding-bottom: 18px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 30px;
+  margin-left: 20px;
+  background-color: #ffffff;
+  color:rgb(0, 0, 0);
+  cursor: pointer;
+  margin-top: 15px;
+}
+/*fim-incio*/
+
+.nav-topo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  
+  .nav-top {
+    text-align: center;
+    display:inline-block
+  }
+  
+  .nav-top a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .nav-top a :hover {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav-top a:hover:not(.active) {
+    background-color: #1b2a4e;
+    color:#F1F1F1;
+    text-decoration: none;
+  }
+  
+  .active {
+    background-color: #1a3783;
+      margin: 0%;
+      
+  }
+  .active2{
+    border: 2px solid #050505;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #1a3783;
+  margin: auto;
+  border: 1px solid;
+  
+  
+  }
+  .foto2{
+    float: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 2px;
+    width: 300px;
+    border-radius: 40px;
+  }
+  .foto3{
+    float: left;
+    margin-left: -300px;
+    margin-top:20px;
+    margin-right: 2px;
+    width: 300px;
+    border-radius: 40px;
+  }
+  body{
+   margin-bottom: 10px;
+   margin: 0;
+   
+  }
+  
+  main{
+    border: 0px solid black;
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  padding: 0px;
+}
+  .titulo{
+    background-color: rgb(255, 251, 251);
+    padding: 15px;
+    margin-top: 0 ;
+    text-align: center;
+    background-image: url(../img/espaco-sideral.png);
+    color: #F1F1F1;
+    border-bottom: 10px rgb(0, 0, 0) solid
+  }
+
+  .corpo{
+    background-color: #e0dcdc;
+  }
+  .corpo2{
+    background-image: url(../img/espaco2.png);
+  }
+  
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 0px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+   align-items: center;
+   color: #050505;
+  }
+  
+  input[type=submit] {
+    background-color: #1a3783;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color: #1b2a4e;
+  }
+  
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+    align-items: center;
+    width: 80%;
+    
+  }
+
+  option{
+    color: #050505;
+  }
+  
+  form{
+    align-items: center;
+    justify-content: center;
+    margin-left: 800px;
+  }
+
+  /*estilos do portfolio*/
+
+  .portfolio{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-top: 104px;
+    padding-bottom: 104px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #e0dcdc;
+  }
+  .portfolio{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-portfolio{
+    border-radius: 16px;
+  }
+  .legenda-portfolio{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 8px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .contato{
+    color: #F1F1F1;
+    font-family:'Montserrat', sans-serif;
+  }
+  footer{
+    color: #ffffff;  
+    background-color: #1b2a4e;
+    padding-top: 104px;
+    padding-bottom: 104px;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/espaco-sideral.png);
+  }
+  .container-fluid{
+    text-decoration:none;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .col-sm-4{
+    text-decoration:none;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .nav-rodape {
+    margin-right: 40px;
+    text-align: left;
+    text-decoration: none;
+    list-style-type: none;
+  } 
+  .nav-rodape a{
+    margin-right: 40px;
+    text-align: left;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+  } 
+  .nav-rodape a:hover{
+    margin-right: 40px;
+    text-align: left;
+    text-decoration: underline;
+    list-style-type: none;
+    color: white;
+  }
+  .meus-obejtivos{
+    padding-top:5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    background-color: #050505;
+    color:aliceblue;
+    cursor: pointer;
+  }
+  .corpo-texto{
+    font-size: 16px;
+    line-height: 30px;
+  }
+  
